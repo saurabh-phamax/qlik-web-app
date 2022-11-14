@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #00000008;
+}
+
+#loader {
+  height: 100vh;
+  background-image: url("loader.780ed63f.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=index.75b90c9d.css.map */
