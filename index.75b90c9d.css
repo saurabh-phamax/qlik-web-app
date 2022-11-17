@@ -7,6 +7,36 @@ html {
   background: #00000008;
 }
 
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 115%;
+}
+
+.chat-output div {
+  margin: 0 0 20px;
+}
+
+.chat-output .user-message .message {
+  color: #fff;
+  background: #0c4;
+}
+
+.chat-output .message {
+  border-radius: 10px;
+  padding: 12px 20px;
+  display: inline-block;
+}
+
+.nebula-chart {
+  width: 90vw;
+  height: 90vh;
+}
+
 #loader {
   height: 100vh;
   background-image: url("loader.780ed63f.gif");
